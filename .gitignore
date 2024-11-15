@@ -1,0 +1,15 @@
+.vscode/
+__pycache__/
+.ipynb_checkpoints/
+agender_env
+/data/*
+
+# You should make a copy of default_config.py
+src/configs/*
+!src/configs/default_config.py
+
+# models of spleeter
+pretrained_models/
+
+notebooks/other
+notebooks/*.csv
